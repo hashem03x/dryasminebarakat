@@ -1,0 +1,194 @@
+{
+  "meta": {
+    "title": "Dr. Yasmin Barakat | Clinical Nutrition & Weight Management in Madinaty",
+    "description": "Dr. Yasmin Barakat is a clinical nutrition specialist offering personalized weight loss, weight gain, and non-surgical body contouring follow-up in Madinaty and New Cairo. Reach out on WhatsApp to learn more.",
+    "ogTitle": "Dr. Yasmin Barakat — Nutrition Specialist in Madinaty",
+    "ogDescription": "Personalized clinical nutrition follow-up for weight loss, weight gain, and non-surgical body contouring in Madinaty.",
+    "keywords": [
+      "nutritionist in Madinaty",
+      "nutrition doctor in Madinaty",
+      "weight loss doctor in Madinaty",
+      "clinical nutrition in Madinaty",
+      "weight management in Madinaty",
+      "weight gain nutrition plan",
+      "non-surgical body contouring in Madinaty",
+      "Dr. Yasmin Barakat",
+      "Dr. Yasmin Barakat nutrition"
+    ]
+  },
+  "skipToContent": "Skip to content",
+  "nav": {
+    "ariaLabel": "Main navigation",
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "results": "Results",
+    "testimonials": "Testimonials",
+    "location": "Location",
+    "cta": "Message on WhatsApp",
+    "menuLabel": "Open menu",
+    "closeLabel": "Close menu"
+  },
+  "languageSwitcher": {
+    "label": "Change language",
+    "ar": "العربية",
+    "en": "English"
+  },
+  "hero": {
+    "eyebrow": "Clinical Nutrition & Weight Management Specialist",
+    "headline": "Nutrition built around you, not a plan off the shelf.",
+    "subheadline": "Your plan is shaped by your body's needs and daily routine — whether you're working toward weight loss, weight gain, or body contouring — with ongoing clinical guidance from Dr. Yasmin Barakat.",
+    "primaryCta": "Book a Consultation on WhatsApp",
+    "secondaryCta": "Explore the Services",
+    "locationBadge": "Madinaty, Cairo",
+    "portraitAlt": "Dr. Yasmin Barakat, clinical nutrition and weight management specialist"
+  },
+  "trustBar": {
+    "items": [
+      "Fully personalized nutrition follow-up",
+      "Clinical plans built around your health condition",
+      "Direct, responsive contact on WhatsApp"
+    ]
+  },
+  "about": {
+    "eyebrow": "About Dr. Yasmin",
+    "title": "Because nutrition is more than food",
+    "paragraphs": [
+      "Dr. Yasmin Barakat believes every body has its own needs — there's no single plan that works for everyone. Her approach starts with understanding your lifestyle, health condition, and real goal, whether that's losing weight, gaining weight, or reshaping body composition.",
+      "Follow-up isn't a sheet of food handed over once. It's an ongoing process that adapts as you progress, shaped around your day-to-day reality so the result stays realistic — and one you can actually sustain."
+    ],
+    "credentialsTitle": "Credentials & Experience",
+    "credentialsPlaceholder": "[Academic qualifications and professional experience to be added here]",
+    "portraitAlt": "Portrait of Dr. Yasmin Barakat"
+  },
+  "services": {
+    "eyebrow": "Services",
+    "title": "Nutrition programs built around your case",
+    "subtitle": "Every service is shaped by your goal and health condition — never a one-size-fits-all plan.",
+    "items": [
+      {
+        "number": "01",
+        "title": "Clinical Nutrition",
+        "description": "Nutrition plans designed around your health condition and individual needs, coordinated with any existing medical case."
+      },
+      {
+        "number": "02",
+        "title": "Weight Loss",
+        "description": "A realistic nutrition program to help you reach a healthy weight sustainably — without harsh restriction or short-term fixes."
+      },
+      {
+        "number": "03",
+        "title": "Weight Gain",
+        "description": "Carefully structured plans that support healthy, balanced weight gain based on your body's actual needs."
+      },
+      {
+        "number": "04",
+        "title": "Non-Surgical Body Contouring",
+        "description": "Nutritional support and tailored programs to help improve body composition and shape without surgical intervention."
+      },
+      {
+        "number": "05",
+        "title": "Ongoing Nutrition Follow-Up",
+        "description": "Regular check-ins and continuous plan adjustments based on your progress and evolving needs."
+      }
+    ]
+  },
+  "approach": {
+    "eyebrow": "Your Journey",
+    "title": "Nutrition is a process, not a sheet of paper",
+    "subtitle": "Three simple steps to begin a path toward results you can actually maintain.",
+    "steps": [
+      {
+        "number": "01",
+        "title": "Understanding Your Needs",
+        "description": "We start by understanding your health condition, daily routine, and the real goal behind your follow-up."
+      },
+      {
+        "number": "02",
+        "title": "A Plan Built Around You",
+        "description": "A nutrition plan shaped by your own case — not a template applied to everyone."
+      },
+      {
+        "number": "03",
+        "title": "Follow-Up & Adjustment",
+        "description": "Ongoing follow-up and plan adjustments based on your progress, so the results actually last."
+      }
+    ]
+  },
+  "results": {
+    "eyebrow": "Results",
+    "title": "Real client experiences",
+    "subtitle": "Examples from previous follow-ups, shared with the client's consent.",
+    "privacyNote": "Images and experiences are shown only with explicit client consent, with care taken to protect personal information.",
+    "beforeLabel": "Before",
+    "afterLabel": "After",
+    "anonymousLabel": "One of our client experiences",
+    "items": [
+      {
+        "title": "Weight Loss Follow-Up",
+        "description": "[Experience details to be added here]"
+      },
+      {
+        "title": "Body Contouring Follow-Up",
+        "description": "[Experience details to be added here]"
+      },
+      {
+        "title": "Clinical Nutrition Follow-Up",
+        "description": "[Experience details to be added here]"
+      }
+    ],
+    "placeholderNote": "This section is ready to display real results as client photos and consent become available."
+  },
+  "testimonials": {
+    "eyebrow": "Testimonials",
+    "title": "What clients say about working with Dr. Yasmin",
+    "items": [
+      {
+        "quote": "[Client testimonial to be added here, with permission]",
+        "name": "[Client name]"
+      },
+      {
+        "quote": "[Client testimonial to be added here, with permission]",
+        "name": "[Client name]"
+      }
+    ]
+  },
+  "location": {
+    "eyebrow": "Location",
+    "title": "Clinic Location",
+    "cityLabel": "Madinaty — Cairo",
+    "description": "The practice serves clients across Madinaty, Fifth Settlement, and New Cairo, with remote follow-up available for clients outside Cairo.",
+    "mapCta": "View Location on Google Maps",
+    "areasServedLabel": "Areas Served",
+    "areasServed": ["Madinaty", "Fifth Settlement", "New Cairo", "Cairo"]
+  },
+  "closingCta": {
+    "title": "Ready to start your nutrition plan?",
+    "description": "Reach out to Dr. Yasmin Barakat on WhatsApp now for details and available appointments.",
+    "button": "Message on WhatsApp"
+  },
+  "socials": {
+    "title": "Follow Dr. Yasmin",
+    "instagramLabel": "Dr. Yasmin Barakat on Instagram",
+    "facebookLabel": "Dr. Yasmin Barakat on Facebook",
+    "whatsappLabel": "Dr. Yasmin Barakat on WhatsApp"
+  },
+  "footer": {
+    "tagline": "Clinical Nutrition, Weight Loss, Weight Gain & Non-Surgical Body Contouring Specialist",
+    "navTitle": "Quick Links",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved"
+  },
+  "whatsapp": {
+    "heroMessage": "Hello Dr. Yasmin, I'd like to learn more about nutrition follow-up and available appointments.",
+    "servicesMessage": "Hello Dr. Yasmin, I'd like to ask about the follow-up service that fits my case.",
+    "resultsMessage": "Hello Dr. Yasmin, I saw your client results and would like to learn more about the program.",
+    "closingMessage": "Hello Dr. Yasmin, I'd like to start my nutrition plan. Could you share the available appointment times?",
+    "floatingMessage": "Hello Dr. Yasmin, I'd like to get in touch about nutrition follow-up.",
+    "floatingLabel": "Message on WhatsApp"
+  },
+  "common": {
+    "learnMore": "Learn More",
+    "whatsappCta": "Message on WhatsApp"
+  }
+}

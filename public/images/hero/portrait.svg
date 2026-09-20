@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1125" width="900" height="1125" role="img" aria-labelledby="heroPortraitTitle">
+  <title id="heroPortraitTitle">Portrait placeholder</title>
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#EEE9DD" />
+      <stop offset="100%" stop-color="#D9D0BE" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="1125" fill="url(#heroBg)" />
+  <rect x="40" y="40" width="820" height="1045" fill="none" stroke="#5B6852" stroke-width="1.5" opacity="0.55" />
+  <circle cx="450" cy="470" r="150" fill="none" stroke="#414B3B" stroke-width="1.5" opacity="0.6" />
+  <text x="450" y="492" font-family="Georgia, serif" font-size="86" fill="#414B3B" text-anchor="middle" opacity="0.75">YB</text>
+  <path d="M300 760 C 370 700, 530 700, 600 760" stroke="#5B6852" stroke-width="1.5" fill="none" opacity="0.5" />
+  <path d="M450 760 C 450 820, 420 860, 380 890" stroke="#5B6852" stroke-width="1.5" fill="none" opacity="0.4" />
+  <path d="M450 760 C 450 820, 480 860, 520 890" stroke="#5B6852" stroke-width="1.5" fill="none" opacity="0.4" />
+  <text x="450" y="1040" font-family="Arial, sans-serif" font-size="18" letter-spacing="2" fill="#414B3B" text-anchor="middle" opacity="0.55">PORTRAIT PLACEHOLDER — REPLACE WITH PHOTOGRAPHY</text>
+</svg>
