@@ -3,7 +3,7 @@
 
 export const SITE_URL =
   process.env.NEXT_PUBLIC_SITE_URL?.replace(/\/$/, "") ||
-  "https://dr-yasmine-barakat.com";
+  "https://dryasminbarakat.com";
 
 export const DOCTOR_NAME_AR = "د. ياسمين بركات";
 export const DOCTOR_NAME_EN = "Dr. Yasmin Barakat";
