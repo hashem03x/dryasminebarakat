@@ -54,9 +54,6 @@ export default function Hero({ locale, messages }: { locale: Locale; messages: M
               alt={messages.hero.portraitAlt}
               fill
               priority
-              // Placeholder is SVG; Next's image optimizer rejects local SVGs
-              // by default. Remove `unoptimized` once this is real photography.
-              unoptimized
               sizes="(min-width: 1024px) 45vw, 90vw"
               className="object-cover"
             />

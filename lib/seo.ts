@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import type { Locale } from "./i18n/config";
 import { getMessages } from "./i18n/messages";
 import { DOCTOR_NAME_AR, DOCTOR_NAME_EN, SITE_URL, SOCIAL_LINKS } from "./constants";
+import { HERO_PORTRAIT } from "./content";
 
 const OG_LOCALE: Record<Locale, string> = {
   ar: "ar_EG",
@@ -71,7 +72,7 @@ export function buildJsonLd(locale: Locale) {
     "@id": `${url}#business`,
     name,
     url,
-    image: `${SITE_URL}/images/hero/portrait.svg`,
+    image: `${SITE_URL}${HERO_PORTRAIT}`,
     areaServed: messages.location.areasServed.map((area) => ({
       "@type": "City",
       name: area,
@@ -101,8 +102,24 @@ export function buildJsonLd(locale: Locale) {
     about: { "@id": `${url}#person` },
   };
 
+  // Mirrors the visible FAQ section exactly (components/FAQ.tsx renders the
+  // same messages.faq.items array) — never add questions here that aren't
+  // also rendered on the page.
+  const faqPage = {
+    "@type": "FAQPage",
+    "@id": `${url}#faq`,
+    mainEntity: messages.faq.items.map((item) => ({
+      "@type": "Question",
+      name: item.question,
+      acceptedAnswer: {
+        "@type": "Answer",
+        text: item.answer,
+      },
+    })),
+  };
+
   return {
     "@context": "https://schema.org",
-    "@graph": [person, business, website, webpage],
+    "@graph": [person, business, website, webpage, faqPage],
   };
 }

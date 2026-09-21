@@ -7,6 +7,7 @@ import Services from "@/components/Services";
 import Approach from "@/components/Approach";
 import Results from "@/components/Results";
 import Testimonials from "@/components/Testimonials";
+import FAQ from "@/components/FAQ";
 import Location from "@/components/Location";
 import ClosingCta from "@/components/ClosingCta";
 
@@ -28,6 +29,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <Approach messages={messages} />
       <Results messages={messages} />
       <Testimonials messages={messages} />
+      <FAQ messages={messages} />
       <Location messages={messages} />
       <ClosingCta messages={messages} />
     </>

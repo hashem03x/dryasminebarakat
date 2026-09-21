@@ -1,13 +1,26 @@
-import { Repeat, Scale, Sparkles, Stethoscope, TrendingUp, type LucideIcon } from "lucide-react";
+import {
+  Activity,
+  Droplet,
+  Repeat,
+  Scale,
+  Sparkles,
+  Stethoscope,
+  Syringe,
+  TrendingUp,
+  type LucideIcon,
+} from "lucide-react";
 import type { Messages } from "@/lib/i18n/messages";
-import { SECTION_ID, SERVICE_ICONS } from "@/lib/content";
+import { SECTION_ID, SERVICE_ICONS, SERVICE_SLUGS } from "@/lib/content";
 import ScrollReveal from "./ScrollReveal";
 
 const ICONS: Record<(typeof SERVICE_ICONS)[number], LucideIcon> = {
   stethoscope: Stethoscope,
   scale: Scale,
   "trending-up": TrendingUp,
+  syringe: Syringe,
   sparkles: Sparkles,
+  activity: Activity,
+  droplet: Droplet,
   repeat: Repeat,
 };
 
@@ -30,7 +43,11 @@ export default function Services({ messages }: { messages: Messages }) {
           {messages.services.items.map((service, index) => {
             const Icon = ICONS[SERVICE_ICONS[index]];
             return (
-              <ScrollReveal key={service.title} delayMs={index * 60}>
+              <ScrollReveal
+                key={service.title}
+                delayMs={index * 60}
+                id={`service-${SERVICE_SLUGS[index]}`}
+              >
                 <div className="grid grid-cols-1 items-start gap-4 py-8 sm:grid-cols-12 sm:gap-8 sm:py-10">
                   <div className="flex items-center gap-4 sm:col-span-2">
                     <span className="font-display text-3xl text-sand-dark">{service.number}</span>

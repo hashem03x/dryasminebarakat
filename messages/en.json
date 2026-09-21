@@ -1,9 +1,9 @@
 {
   "meta": {
     "title": "Dr. Yasmin Barakat | Clinical Nutrition & Weight Management in Madinaty",
-    "description": "Dr. Yasmin Barakat is a clinical nutrition specialist offering personalized weight loss, weight gain, and non-surgical body contouring follow-up in Madinaty and New Cairo. Reach out on WhatsApp to learn more.",
+    "description": "Dr. Yasmin Barakat is a clinical nutrition specialist offering expert follow-up for weight-loss injections (Mounjaro, Wegovy, Ozempic), insulin resistance and fatty liver management, weight loss and weight gain plans, and non-surgical body contouring in Madinaty and New Cairo. Reach out on WhatsApp to learn more.",
     "ogTitle": "Dr. Yasmin Barakat — Nutrition Specialist in Madinaty",
-    "ogDescription": "Personalized clinical nutrition follow-up for weight loss, weight gain, and non-surgical body contouring in Madinaty.",
+    "ogDescription": "Personalized clinical nutrition follow-up for weight loss, weight gain, insulin resistance, fatty liver, weight-loss injection follow-up, and non-surgical body contouring in Madinaty.",
     "keywords": [
       "nutritionist in Madinaty",
       "nutrition doctor in Madinaty",
@@ -13,7 +13,15 @@
       "weight gain nutrition plan",
       "non-surgical body contouring in Madinaty",
       "Dr. Yasmin Barakat",
-      "Dr. Yasmin Barakat nutrition"
+      "Dr. Yasmin Barakat nutrition",
+      "Mounjaro",
+      "Wegovy",
+      "Ozempic",
+      "weight loss injection follow-up",
+      "insulin resistance",
+      "fatty liver",
+      "localized fat",
+      "online nutrition follow-up"
     ]
   },
   "skipToContent": "Skip to content",
@@ -24,6 +32,7 @@
     "services": "Services",
     "results": "Results",
     "testimonials": "Testimonials",
+    "faq": "FAQ",
     "location": "Location",
     "cta": "Message on WhatsApp",
     "menuLabel": "Open menu",
@@ -35,9 +44,9 @@
     "en": "English"
   },
   "hero": {
-    "eyebrow": "Clinical Nutrition & Weight Management Specialist",
-    "headline": "Nutrition built around you, not a plan off the shelf.",
-    "subheadline": "Your plan is shaped by your body's needs and daily routine — whether you're working toward weight loss, weight gain, or body contouring — with ongoing clinical guidance from Dr. Yasmin Barakat.",
+    "eyebrow": "Clinical Nutrition, Weight Management & Metabolic Health",
+    "headline": "Personalized Nutrition, Built For Your Body.",
+    "subheadline": "Evidence-based nutrition plans tailored to your health goals, daily routine, and metabolic needs. Whether you're managing weight, targeting localized fat, or under clinical supervision for weight-loss injections (Mounjaro, Wegovy, Ozempic) — receive continuous care from Dr. Yasmin Barakat.",
     "primaryCta": "Book a Consultation on WhatsApp",
     "secondaryCta": "Explore the Services",
     "locationBadge": "Madinaty, Cairo",
@@ -83,13 +92,28 @@
       },
       {
         "number": "04",
-        "title": "Non-Surgical Body Contouring",
-        "description": "Nutritional support and tailored programs to help improve body composition and shape without surgical intervention."
+        "title": "Mounjaro, Wegovy & Ozempic Clinical Follow-up",
+        "description": "Expert clinical follow-up for patients using advanced weight-loss injections — including individualized dose management, monitoring of response and potential side effects, and a nutrition plan that supports muscle preservation throughout treatment."
       },
       {
         "number": "05",
-        "title": "Ongoing Nutrition Follow-Up",
-        "description": "Regular check-ins and continuous plan adjustments based on your progress and evolving needs."
+        "title": "Non-Surgical Body Contouring & Localized Fat",
+        "description": "Modern non-surgical technologies designed to target localized fat deposits in areas such as the abdomen, arms, and thighs, as part of an individualized body-contouring plan that complements your clinical nutrition program."
+      },
+      {
+        "number": "06",
+        "title": "Insulin Resistance Management",
+        "description": "Individualized nutrition and lifestyle strategies to support insulin sensitivity, blood sugar regulation, weight management, and overall metabolic health."
+      },
+      {
+        "number": "07",
+        "title": "Fatty Liver & Metabolic Nutrition",
+        "description": "Personalized clinical nutrition and lifestyle strategies designed to support metabolic health and help manage fatty liver disease, tailored to each patient's condition."
+      },
+      {
+        "number": "08",
+        "title": "Ongoing Nutrition Follow-Up (In-Clinic or Online)",
+        "description": "Regular check-ins and continuous plan adjustments based on your progress and evolving needs — available in-clinic or remotely online for patients outside Cairo."
       }
     ]
   },
@@ -126,30 +150,73 @@
     "items": [
       {
         "title": "Weight Loss Follow-Up",
-        "description": "[Experience details to be added here]"
+        "description": "A nutrition follow-up result for weight loss, as part of an individualized plan."
       },
       {
         "title": "Body Contouring Follow-Up",
-        "description": "[Experience details to be added here]"
+        "description": "A follow-up result for improved body composition, as part of a tailored program."
       },
       {
         "title": "Clinical Nutrition Follow-Up",
-        "description": "[Experience details to be added here]"
+        "description": "A nutrition follow-up result as part of an individualized plan built around the client's case."
       }
     ],
-    "placeholderNote": "This section is ready to display real results as client photos and consent become available."
+    "placeholderNote": "These examples are shown with the clients' consent, and the gallery will be updated periodically with new results."
   },
   "testimonials": {
     "eyebrow": "Testimonials",
     "title": "What clients say about working with Dr. Yasmin",
     "items": [
       {
-        "quote": "[Client testimonial to be added here, with permission]",
-        "name": "[Client name]"
+        "quote": "دكتورة ممتازة جداً، متابعتها حلوه وعندها ضمير واهتمام حقيقي بكل حالة. تجربة أكثر من رائعة وأنصبح بها بكل ثقة",
+        "name": "HANAN ELAZZAZY"
       },
       {
-        "quote": "[Client testimonial to be added here, with permission]",
-        "name": "[Client name]"
+        "quote": "مكنتش عارفة سبب زيادة الوزن ايه، الدكتورة فهمتني كل حاجه بالتفصيل بعد الكشف",
+        "name": "لمى م."
+      },
+      {
+        "quote": "حبيتها كتير دكتورة شاطرة ومريحة فهمتني حالة جسمي ووزني مضبوط ووجدت فرق من أول أسبوع",
+        "name": "شيماء م."
+      }
+    ]
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently Asked Questions",
+    "relatedLabel": "Related service",
+    "items": [
+      {
+        "question": "Are Mounjaro, Wegovy, and Ozempic safe, and how are they monitored?",
+        "answer": "These treatments are used under medical supervision according to each patient's health profile. Treatment selection, dosing, and follow-up are individualized, with ongoing monitoring of response and potential side effects alongside a personalized nutrition plan."
+      },
+      {
+        "question": "How can nutrition support insulin resistance and fatty liver management?",
+        "answer": "Clinical nutrition can support metabolic health through individualized meal planning, appropriate carbohydrate and protein choices, weight management, and lifestyle strategies designed around each patient's health profile and laboratory results."
+      },
+      {
+        "question": "Can localized fat be targeted without surgery?",
+        "answer": "Certain non-surgical body-contouring technologies can help target localized fat deposits in areas such as the abdomen, arms, and thighs. The appropriate approach depends on the individual's condition and can be combined with a personalized clinical nutrition plan."
+      },
+      {
+        "question": "How can I reduce the risk of regaining weight after stopping weight-loss injections?",
+        "answer": "Long-term weight management involves more than losing weight. Personalized nutrition, sustainable lifestyle habits, and appropriate clinical follow-up can help support weight maintenance. Medication changes or discontinuation should always be discussed with the treating physician."
+      },
+      {
+        "question": "What is the difference between Mounjaro, Ozempic, and Wegovy?",
+        "answer": "They differ in their active ingredients, mechanisms, approved uses, and dosing. Ozempic and Wegovy contain semaglutide and act on the GLP-1 pathway, while Mounjaro contains tirzepatide and acts on both GIP and GLP-1 pathways. The appropriate treatment depends on the patient's medical profile and treatment goals."
+      },
+      {
+        "question": "Can weight-loss injections cause muscle loss or loose skin?",
+        "answer": "Changes in muscle mass and skin appearance can occur during weight loss, particularly with rapid weight reduction or inadequate nutrition. Clinical follow-up can include appropriate protein intake, balanced nutrition, and lifestyle strategies that support muscle preservation throughout the weight-loss journey."
+      },
+      {
+        "question": "How long does it take to see results from weight-management and body-contouring programs?",
+        "answer": "Results vary depending on the individual's health profile, treatment plan, nutrition, and consistency. Changes in appetite and weight may appear during the first few weeks, while body-contouring results typically develop progressively over multiple sessions depending on the technology and treatment area."
+      },
+      {
+        "question": "Is remote nutrition and clinical follow-up effective?",
+        "answer": "Remote follow-up can be an effective part of care for suitable patients, allowing ongoing review of progress, weight and body measurements, laboratory results, and nutrition plans. Its suitability depends on the patient's condition and clinical needs."
       }
     ]
   },

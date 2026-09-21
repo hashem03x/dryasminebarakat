@@ -43,6 +43,7 @@ export default function Navbar({ locale, messages }: { locale: Locale; messages:
     { key: SECTION_ID.services, label: messages.nav.services },
     { key: SECTION_ID.results, label: messages.nav.results },
     { key: SECTION_ID.testimonials, label: messages.nav.testimonials },
+    { key: SECTION_ID.faq, label: messages.nav.faq },
     { key: SECTION_ID.location, label: messages.nav.location },
   ];
 

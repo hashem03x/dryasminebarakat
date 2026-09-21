@@ -37,14 +37,9 @@ export default function Results({ messages }: { messages: Messages }) {
                       alt={`${item.title} — ${messages.results.beforeLabel}`}
                       fill
                       loading="lazy"
-                      // Placeholders are SVG; remove `unoptimized` once these are real photography.
-                      unoptimized
                       sizes="(min-width: 1024px) 20vw, 40vw"
                       className="object-contain"
                     />
-                    <span className="absolute start-2 top-2 rounded bg-paper/90 px-2 py-1 text-xs font-medium text-ink">
-                      {messages.results.beforeLabel}
-                    </span>
                   </div>
                   <div className="relative aspect-[3/4] overflow-hidden">
                     <Image
@@ -52,14 +47,9 @@ export default function Results({ messages }: { messages: Messages }) {
                       alt={`${item.title} — ${messages.results.afterLabel}`}
                       fill
                       loading="lazy"
-                      // Placeholders are SVG; remove `unoptimized` once these are real photography.
-                      unoptimized
                       sizes="(min-width: 1024px) 20vw, 40vw"
                       className="object-contain"
                     />
-                    <span className="absolute start-2 top-2 rounded bg-sage px-2 py-1 text-xs font-medium text-paper">
-                      {messages.results.afterLabel}
-                    </span>
                   </div>
                 </div>
                 <div className="p-5">
@@ -73,7 +63,7 @@ export default function Results({ messages }: { messages: Messages }) {
             );
           })}
         </div>
-        <p className="mt-6 text-sm text-ink-faint">{messages.results.placeholderNote}</p>
+        {/* <p className="mt-6 text-sm text-ink-faint">{messages.results.placeholderNote}</p> */}
       </div>
     </section>
   );
