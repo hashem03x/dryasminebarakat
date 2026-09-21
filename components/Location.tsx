@@ -7,7 +7,7 @@ import ScrollReveal from "./ScrollReveal";
 export default function Location({ messages }: { messages: Messages }) {
   return (
     <section id={SECTION_ID.location} className="section-space bg-ivory">
-      <div className="container-edit grid grid-cols-1 items-center gap-14 lg:grid-cols-2 lg:gap-16">
+      <div className="container-edit grid grid-cols-1 items-center gap-14 md:grid-cols-2 md:gap-12 lg:gap-16">
         <ScrollReveal>
           <p className="mb-5 flex items-center gap-3 text-sm font-medium uppercase tracking-[0.15em] text-sage">
             <span className="h-px w-8 bg-sage" aria-hidden="true" />

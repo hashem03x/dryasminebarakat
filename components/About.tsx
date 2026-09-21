@@ -17,7 +17,7 @@ export default function About({ messages }: { messages: Messages }) {
           </h2>
         </ScrollReveal>
 
-        <div className="mt-14 grid grid-cols-1 gap-12 lg:grid-cols-12 lg:gap-16">
+        <div className="mt-14 grid grid-cols-1 gap-12 md:grid-cols-2 md:gap-10 lg:grid-cols-12 lg:gap-16">
           <ScrollReveal delayMs={100} className="lg:col-span-5">
             <div className="relative aspect-[3/4] w-full max-w-md overflow-hidden border border-line bg-sand-light">
               <Image

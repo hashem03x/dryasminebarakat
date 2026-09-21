@@ -53,9 +53,11 @@ export default function Navbar({ locale, messages }: { locale: Locale; messages:
   return (
     <header
       className={`sticky top-0 z-50 w-full border-b transition-all duration-300 ${
-        isScrolled
-          ? "border-line bg-paper/90 shadow-subtle backdrop-blur-md"
-          : "border-transparent bg-ivory/0"
+        isMenuOpen
+          ? "border-line bg-ivory shadow-subtle"
+          : isScrolled
+            ? "border-line bg-paper/90 shadow-subtle backdrop-blur-md"
+            : "border-transparent bg-ivory/0"
       }`}
     >
       <div className="container-edit flex h-[72px] items-center justify-between gap-6 sm:h-20">
@@ -66,7 +68,7 @@ export default function Navbar({ locale, messages }: { locale: Locale; messages:
           {name}
         </Link>
 
-        <nav aria-label={messages.nav.ariaLabel} className="hidden flex-1 items-center justify-center gap-8 md:flex">
+        <nav aria-label={messages.nav.ariaLabel} className="hidden flex-1 items-center justify-center gap-8 lg:flex">
           {navItems.map((item) => (
             <Link
               key={item.key}
@@ -78,7 +80,7 @@ export default function Navbar({ locale, messages }: { locale: Locale; messages:
           ))}
         </nav>
 
-        <div className="hidden items-center gap-6 md:flex">
+        <div className="hidden items-center gap-6 lg:flex">
           <LanguageSwitcher locale={locale} messages={messages} variant="compact" />
           <a
             href={whatsappHref}
@@ -91,7 +93,7 @@ export default function Navbar({ locale, messages }: { locale: Locale; messages:
           </a>
         </div>
 
-        <div className="flex items-center gap-3 md:hidden">
+        <div className="flex items-center gap-3 lg:hidden">
           <LanguageSwitcher locale={locale} messages={messages} variant="compact" />
           <button
             type="button"
@@ -109,7 +111,7 @@ export default function Navbar({ locale, messages }: { locale: Locale; messages:
       {isMenuOpen && (
         <div
           id="mobile-menu"
-          className="fixed inset-x-0 top-[72px] bottom-0 z-40 flex flex-col bg-ivory px-6 py-8 sm:top-20 md:hidden"
+          className="fixed inset-x-0 top-[72px] bottom-0 z-40 flex flex-col overflow-y-auto overscroll-contain bg-ivory px-6 py-8 sm:top-20 lg:hidden"
         >
           <nav aria-label={messages.nav.ariaLabel} className="flex flex-col gap-1">
             {navItems.map((item) => (
