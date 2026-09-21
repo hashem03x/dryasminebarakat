@@ -25,8 +25,6 @@ export default function About({ messages }: { messages: Messages }) {
                 alt={messages.about.portraitAlt}
                 fill
                 loading="lazy"
-                // Placeholder is SVG; remove `unoptimized` once this is real photography.
-                unoptimized
                 sizes="(min-width: 1024px) 35vw, 90vw"
                 className="object-cover"
               />

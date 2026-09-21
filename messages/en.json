@@ -166,18 +166,21 @@
   "testimonials": {
     "eyebrow": "Testimonials",
     "title": "What clients say about working with Dr. Yasmin",
+    "previous": "Previous",
+    "next": "Next",
+    "goToItem": "Go to testimonial",
     "items": [
       {
-        "quote": "دكتورة ممتازة جداً، متابعتها حلوه وعندها ضمير واهتمام حقيقي بكل حالة. تجربة أكثر من رائعة وأنصبح بها بكل ثقة",
+        "quote": "An excellent doctor — her follow-up is genuinely thoughtful, and she cares about every case. More than a great experience; I trust her completely.",
         "name": "HANAN ELAZZAZY"
       },
       {
-        "quote": "مكنتش عارفة سبب زيادة الوزن ايه، الدكتورة فهمتني كل حاجه بالتفصيل بعد الكشف",
-        "name": "لمى م."
+        "quote": "I didn't know why I was gaining weight. After the consultation, Dr. Yasmin explained everything to me in detail.",
+        "name": "Lama M."
       },
       {
-        "quote": "حبيتها كتير دكتورة شاطرة ومريحة فهمتني حالة جسمي ووزني مضبوط ووجدت فرق من أول أسبوع",
-        "name": "شيماء م."
+        "quote": "I really loved working with her — a skilled, reassuring doctor. She helped me understand my body, my weight is on track, and I noticed a difference from the very first week.",
+        "name": "Shaimaa M."
       }
     ]
   },

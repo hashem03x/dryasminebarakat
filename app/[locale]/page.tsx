@@ -28,7 +28,7 @@ export default async function HomePage({ params }: { params: Promise<{ locale: s
       <Services messages={messages} />
       <Approach messages={messages} />
       <Results messages={messages} />
-      <Testimonials messages={messages} />
+      <Testimonials locale={locale} messages={messages} />
       <FAQ messages={messages} />
       <Location messages={messages} />
       <ClosingCta messages={messages} />
