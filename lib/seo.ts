@@ -16,9 +16,20 @@ export function buildMetadata(locale: Locale): Metadata {
 
   return {
     metadataBase: new URL(SITE_URL),
+
     title: messages.meta.title,
     description: messages.meta.description,
     keywords: messages.meta.keywords,
+
+    icons: {
+      icon: [
+        {
+          url: "/favicon.jpg",
+          type: "image/jpeg",
+        },
+      ],
+    },
+
     alternates: {
       canonical: url,
       languages: {
@@ -27,6 +38,7 @@ export function buildMetadata(locale: Locale): Metadata {
         "x-default": `${SITE_URL}/ar`,
       },
     },
+
     openGraph: {
       type: "website",
       url,
@@ -36,11 +48,13 @@ export function buildMetadata(locale: Locale): Metadata {
       locale: OG_LOCALE[locale],
       alternateLocale: locale === "ar" ? [OG_LOCALE.en] : [OG_LOCALE.ar],
     },
+
     twitter: {
       card: "summary_large_image",
       title: messages.meta.ogTitle,
       description: messages.meta.ogDescription,
     },
+
     robots: {
       index: true,
       follow: true,
