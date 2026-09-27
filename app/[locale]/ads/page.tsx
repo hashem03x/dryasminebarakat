@@ -39,7 +39,7 @@ export default async function AdsPage({ params }: { params: Promise<{ locale: st
       <AdsHowItWorks messages={messages} />
       <AdsAbout messages={messages} />
       <AdsSupport messages={messages} />
-      <Testimonials locale={locale} messages={{ testimonials: messages.testimonials }} />
+      <Testimonials locale={locale} messages={{ testimonials: messages.ads.testimonials }} />
       <AdsFAQ faq={messages.ads.faq} />
       <AdsClosingCta messages={messages} />
     </>

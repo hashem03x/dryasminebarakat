@@ -370,6 +370,27 @@
       "title": "A plan built around you — not a promise of a number on a scale",
       "description": "Every client's starting point and goals are different. Rather than a one-size-fits-all promise, Dr. Yasmin focuses on building a nutrition and lifestyle plan that fits your life and that you can realistically maintain."
     },
+    "testimonials": {
+      "eyebrow": "Testimonials",
+      "title": "What clients say about working with Dr. Yasmin",
+      "previous": "Previous",
+      "next": "Next",
+      "goToItem": "Go to testimonial",
+      "items": [
+        {
+          "quote": "An excellent doctor — her follow-up is genuinely thoughtful, and she cares about every case. More than a great experience; I trust her completely.",
+          "name": "HANAN ELAZZAZY"
+        },
+        {
+          "quote": "I didn't understand my body's needs before. Dr. Yasmin took the time to explain everything clearly during the consultation, and it all finally made sense.",
+          "name": "Lama M."
+        },
+        {
+          "quote": "I really loved working with her — a skilled, reassuring doctor. She helped me understand my body and gave me a plan that actually fit my daily routine.",
+          "name": "Shaimaa M."
+        }
+      ]
+    },
     "faq": {
       "eyebrow": "FAQ",
       "title": "Frequently Asked Questions",
