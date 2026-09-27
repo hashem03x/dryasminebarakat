@@ -10,7 +10,16 @@ import ScrollReveal from "./ScrollReveal";
 const SWIPE_THRESHOLD_RATIO = 0.18;
 const SWIPE_THRESHOLD_MIN_PX = 48;
 
-export default function Testimonials({ locale, messages }: { locale: Locale; messages: Messages }) {
+export default function Testimonials({
+  locale,
+  messages,
+}: {
+  locale: Locale;
+  // Narrowed: client component props are serialized in full into the page's
+  // hydration payload. Callers should pass only { testimonials } rather
+  // than the entire Messages object where that matters (e.g. /ads).
+  messages: Pick<Messages, "testimonials">;
+}) {
   const items = messages.testimonials.items;
   const isRTL = locale === "ar";
   const baseId = useId();

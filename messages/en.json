@@ -258,5 +258,155 @@
   "common": {
     "learnMore": "Learn More",
     "whatsappCta": "Message on WhatsApp"
+  },
+  "ads": {
+    "meta": {
+      "title": "Dr. Yasmin Barakat | Personalized Nutrition & Wellness",
+      "description": "Personalized nutrition consultations and lifestyle guidance tailored to your goals and everyday needs.",
+      "ogTitle": "Dr. Yasmin Barakat | Personalized Nutrition & Wellness",
+      "ogDescription": "Professional nutrition consultations and personalized lifestyle plans designed around your individual goals.",
+      "keywords": [
+        "nutrition consultation in Madinaty",
+        "nutritionist in Madinaty",
+        "personalized nutrition",
+        "healthy lifestyle guidance",
+        "wellness consultation",
+        "nutrition plan",
+        "dietitian in Cairo",
+        "Dr. Yasmin Barakat"
+      ]
+    },
+    "nav": {
+      "cta": "Message on WhatsApp"
+    },
+    "hero": {
+      "eyebrow": "Personalized Nutrition & Wellness",
+      "headline": "Personalized Nutrition & Wellness",
+      "subheadline": "Professional nutrition consultations and personalized lifestyle plans designed around your individual goals.",
+      "primaryCta": "Book a Consultation on WhatsApp",
+      "secondaryCta": "See How It Works",
+      "portraitAlt": "Dr. Yasmin Barakat, nutrition consultant"
+    },
+    "intro": {
+      "eyebrow": "About the Program",
+      "title": "Nutrition guidance built around your life",
+      "paragraph": "Every plan starts with a conversation — your goals, your routine, and what's realistic for you to maintain. From there, Dr. Yasmin builds a personalized nutrition and lifestyle plan you can actually stick with."
+    },
+    "services": {
+      "eyebrow": "What's Included",
+      "title": "How we can help",
+      "subtitle": "A few of the ways a personalized plan can support you.",
+      "items": [
+        {
+          "number": "01",
+          "title": "Personalized Nutrition",
+          "description": "Individualized nutrition guidance based on your lifestyle, preferences, and goals."
+        },
+        {
+          "number": "02",
+          "title": "Lifestyle Planning",
+          "description": "Practical recommendations designed to help you build sustainable daily habits."
+        },
+        {
+          "number": "03",
+          "title": "Nutrition Follow-Up",
+          "description": "Ongoing guidance to help you stay consistent with your personalized plan."
+        },
+        {
+          "number": "04",
+          "title": "Healthy Eating",
+          "description": "Simple, practical nutrition strategies designed for everyday life."
+        }
+      ]
+    },
+    "whyChooseUs": {
+      "eyebrow": "Why Dr. Yasmin",
+      "title": "A personalized approach, not a one-size-fits-all plan",
+      "items": [
+        {
+          "title": "Individualized Plans",
+          "description": "No generic templates — every plan is built around your own goals and routine."
+        },
+        {
+          "title": "Ongoing Support",
+          "description": "Regular check-ins to keep you on track and adjust the plan as you progress."
+        },
+        {
+          "title": "Clear Communication",
+          "description": "Direct, responsive contact so you always know what to do next."
+        }
+      ]
+    },
+    "howItWorks": {
+      "eyebrow": "How It Works",
+      "title": "Getting started is simple",
+      "subtitle": "Three steps to your personalized plan.",
+      "steps": [
+        {
+          "number": "01",
+          "title": "Reach Out",
+          "description": "Send a message on WhatsApp to share a bit about your goals."
+        },
+        {
+          "number": "02",
+          "title": "Consultation",
+          "description": "A conversation to understand your lifestyle, routine, and what you're aiming for."
+        },
+        {
+          "number": "03",
+          "title": "Your Personalized Plan",
+          "description": "Receive a nutrition and lifestyle plan built specifically for you, with ongoing follow-up."
+        }
+      ]
+    },
+    "about": {
+      "eyebrow": "About Dr. Yasmin",
+      "title": "A dedicated nutrition professional",
+      "paragraph": "Dr. Yasmin Barakat works with clients across Madinaty and New Cairo, focusing on realistic, personalized nutrition guidance rather than generic diet plans.",
+      "portraitAlt": "Portrait of Dr. Yasmin Barakat"
+    },
+    "support": {
+      "eyebrow": "Personalized Support",
+      "title": "A plan built around you — not a promise of a number on a scale",
+      "description": "Every client's starting point and goals are different. Rather than a one-size-fits-all promise, Dr. Yasmin focuses on building a nutrition and lifestyle plan that fits your life and that you can realistically maintain."
+    },
+    "faq": {
+      "eyebrow": "FAQ",
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What does a nutrition consultation involve?",
+          "answer": "A conversation about your health, lifestyle, and goals, followed by a personalized nutrition plan and practical recommendations you can build into your routine."
+        },
+        {
+          "question": "How long before I notice a difference?",
+          "answer": "This varies from person to person depending on your starting point, consistency, and lifestyle. Dr. Yasmin will give you a realistic sense of what to expect during your consultation."
+        },
+        {
+          "question": "Do you offer online consultations?",
+          "answer": "Yes, remote consultations and follow-up are available for clients outside Cairo, alongside in-clinic appointments in Madinaty."
+        },
+        {
+          "question": "How do I book a consultation?",
+          "answer": "Message Dr. Yasmin directly on WhatsApp to share your goals and arrange an appointment time."
+        }
+      ]
+    },
+    "closingCta": {
+      "title": "Ready to get started?",
+      "description": "Message Dr. Yasmin Barakat on WhatsApp to book your consultation.",
+      "button": "Message on WhatsApp"
+    },
+    "footer": {
+      "tagline": "Personalized Nutrition & Wellness Consultations",
+      "rights": "All rights reserved"
+    },
+    "whatsapp": {
+      "heroMessage": "Hello Dr. Yasmin, I'd like to learn more about a personalized nutrition consultation.",
+      "servicesMessage": "Hello Dr. Yasmin, I'd like to ask about your nutrition and lifestyle guidance.",
+      "closingMessage": "Hello Dr. Yasmin, I'd like to book a nutrition consultation. Could you share the available times?",
+      "floatingMessage": "Hello Dr. Yasmin, I'd like to get in touch about a nutrition consultation.",
+      "floatingLabel": "Message on WhatsApp"
+    }
   }
 }

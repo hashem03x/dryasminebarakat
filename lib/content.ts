@@ -64,3 +64,14 @@ export const RESULT_IMAGES = [
 export const HERO_PORTRAIT = "/images/hero/hero.jpeg";
 // Reusing the hero photo until a dedicated About portrait is supplied.
 export const ABOUT_PORTRAIT = "/images/hero/hero.jpeg";
+
+// Cropped from HERO_PORTRAIT to remove the TV-appearance branding overlay —
+// used on the Google Ads landing page, which must only show neutral,
+// unbranded professional photography.
+export const ADS_PORTRAIT = "/images/ads/portrait.jpg";
+
+// Paired with messages.ads.services.items by index.
+export const ADS_SERVICE_ICONS = ["heart-pulse", "calendar-check", "repeat", "leaf"] as const;
+
+// Paired with messages.ads.whyChooseUs.items by index.
+export const ADS_WHY_ICONS = ["user-check", "repeat", "message-circle"] as const;

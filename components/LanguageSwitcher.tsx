@@ -11,7 +11,13 @@ export default function LanguageSwitcher({
   variant = "default",
 }: {
   locale: Locale;
-  messages: Messages;
+  // Narrowed on purpose: this is a client component, so whatever object
+  // shape is passed here gets serialized into the page's hydration payload
+  // in full. Callers should pass only { languageSwitcher } rather than the
+  // entire Messages object where payload size/content matters (e.g. the
+  // /ads landing page, which must not leak the homepage's full copy into
+  // its HTML).
+  messages: Pick<Messages, "languageSwitcher">;
   variant?: "default" | "compact";
 }) {
   const router = useRouter();

@@ -3,10 +3,7 @@ import { Alexandria, IBM_Plex_Sans_Arabic, IBM_Plex_Sans } from "next/font/googl
 import { notFound } from "next/navigation";
 import { isLocale, localeDirection, locales, type Locale } from "@/lib/i18n/config";
 import { getMessages } from "@/lib/i18n/messages";
-import { buildJsonLd, buildMetadata } from "@/lib/seo";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import WhatsAppFloating from "@/components/WhatsAppFloating";
+import { SITE_URL } from "@/lib/constants";
 import "../globals.css";
 
 const alexandria = Alexandria({
@@ -34,6 +31,9 @@ export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
 
+// Base metadata shared by every page under [locale]. Each leaf page
+// (homepage, /ads, ...) supplies its own title/description/OG/canonical via
+// its own generateMetadata, which Next merges over these shared defaults.
 export async function generateMetadata({
   params,
 }: {
@@ -41,9 +41,26 @@ export async function generateMetadata({
 }): Promise<Metadata> {
   const { locale } = await params;
   if (!isLocale(locale)) return {};
-  return buildMetadata(locale);
+
+  return {
+    metadataBase: new URL(SITE_URL),
+    icons: {
+      icon: [{ url: "/favicon.jpg", type: "image/jpeg" }],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: { index: true, follow: true },
+    },
+  };
 }
 
+// This layout only establishes the document shell (html lang/dir, fonts,
+// skip link) shared by every page under this locale. Page-specific chrome
+// (navigation, footer, JSON-LD) lives in each route's own nested layout —
+// see app/[locale]/(site)/layout.tsx and app/[locale]/ads/layout.tsx —
+// since the homepage and the Google Ads landing page intentionally use
+// different navigation/footer and different structured data.
 export default async function LocaleLayout({
   children,
   params,
@@ -57,25 +74,17 @@ export default async function LocaleLayout({
   const messages = getMessages(locale);
   const direction = localeDirection[locale];
   const bodyFontVariable = locale === "ar" ? ibmPlexArabic.variable : ibmPlexLatin.variable;
-  const jsonLd = buildJsonLd(locale);
 
   return (
     <html lang={locale} dir={direction} className={`${alexandria.variable} ${bodyFontVariable}`}>
       <body>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:fixed focus:start-4 focus:top-4 focus:z-[100] focus:rounded focus:bg-ink focus:px-4 focus:py-2 focus:text-sm focus:text-ivory"
         >
           {messages.skipToContent}
         </a>
-        <Navbar locale={locale} messages={messages} />
-        <main id="main-content">{children}</main>
-        <Footer locale={locale} messages={messages} />
-        <WhatsAppFloating locale={locale} messages={messages} />
+        {children}
       </body>
     </html>
   );
