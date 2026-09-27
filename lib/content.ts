@@ -61,6 +61,6 @@ export const RESULT_IMAGES = [
   { before: "/images/results/result-03-before.jpg", after: "/images/results/result-03-after.jpg" },
 ];
 
-export const HERO_PORTRAIT = "/images/hero/hero.jpg";
+export const HERO_PORTRAIT = "/images/hero/hero.jpeg";
 // Reusing the hero photo until a dedicated About portrait is supplied.
-export const ABOUT_PORTRAIT = "/images/hero/hero.jpg";
+export const ABOUT_PORTRAIT = "/images/hero/hero.jpeg";
