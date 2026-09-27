@@ -1,23 +1,21 @@
 {
   "meta": {
     "title": "Dr. Yasmin Barakat | Clinical Nutrition & Weight Management in Madinaty",
-    "description": "Dr. Yasmin Barakat is a clinical nutrition specialist offering expert follow-up for weight-loss injections (Mounjaro, Wegovy, Ozempic), insulin resistance and fatty liver management, weight loss and weight gain plans, and non-surgical body contouring in Madinaty and New Cairo. Reach out on WhatsApp to learn more.",
+    "description": "Dr. Yasmin Barakat is a clinical nutrition specialist offering medical weight management follow-up, insulin resistance and fatty liver nutrition, weight loss and weight gain plans, and non-surgical body contouring in Madinaty and New Cairo. Reach out on WhatsApp to learn more.",
     "ogTitle": "Dr. Yasmin Barakat — Nutrition Specialist in Madinaty",
-    "ogDescription": "Personalized clinical nutrition follow-up for weight loss, weight gain, insulin resistance, fatty liver, weight-loss injection follow-up, and non-surgical body contouring in Madinaty.",
+    "ogDescription": "Personalized clinical nutrition follow-up for weight loss, weight gain, medical weight management, insulin resistance, fatty liver, and non-surgical body contouring in Madinaty.",
     "keywords": [
       "nutritionist in Madinaty",
       "nutrition doctor in Madinaty",
       "weight loss doctor in Madinaty",
       "clinical nutrition in Madinaty",
       "weight management in Madinaty",
+      "medical weight management",
       "weight gain nutrition plan",
       "non-surgical body contouring in Madinaty",
       "Dr. Yasmin Barakat",
       "Dr. Yasmin Barakat nutrition",
-      "Mounjaro",
-      "Wegovy",
-      "Ozempic",
-      "weight loss injection follow-up",
+      "clinical weight management follow-up",
       "insulin resistance",
       "fatty liver",
       "localized fat",
@@ -46,7 +44,7 @@
   "hero": {
     "eyebrow": "Clinical Nutrition, Weight Management & Metabolic Health",
     "headline": "Personalized Nutrition, Built For Your Body.",
-    "subheadline": "Evidence-based nutrition plans tailored to your health goals, daily routine, and metabolic needs. Whether you're managing weight, targeting localized fat, or under clinical supervision for weight-loss injections (Mounjaro, Wegovy, Ozempic) — receive continuous care from Dr. Yasmin Barakat.",
+    "subheadline": "Evidence-based nutrition plans tailored to your health goals, daily routine, and metabolic needs. Whether you're managing weight, targeting localized fat, or following a physician-guided medical weight management plan — receive continuous care from Dr. Yasmin Barakat.",
     "primaryCta": "Book a Consultation on WhatsApp",
     "secondaryCta": "Explore the Services",
     "locationBadge": "Madinaty, Cairo",
@@ -92,8 +90,8 @@
       },
       {
         "number": "04",
-        "title": "Mounjaro, Wegovy & Ozempic Clinical Follow-up",
-        "description": "Expert clinical follow-up for patients using advanced weight-loss injections — including individualized dose management, monitoring of response and potential side effects, and a nutrition plan that supports muscle preservation throughout treatment."
+        "title": "Medical Weight Management",
+        "description": "Personalized nutrition and lifestyle guidance for patients under physician-guided weight management care, coordinated with your treating physician — with attention to balanced nutrition, progress monitoring, and preserving muscle mass throughout the process."
       },
       {
         "number": "05",
@@ -190,8 +188,8 @@
     "relatedLabel": "Related service",
     "items": [
       {
-        "question": "Are Mounjaro, Wegovy, and Ozempic safe, and how are they monitored?",
-        "answer": "These treatments are used under medical supervision according to each patient's health profile. Treatment selection, dosing, and follow-up are individualized, with ongoing monitoring of response and potential side effects alongside a personalized nutrition plan."
+        "question": "Do you offer medical weight management follow-up?",
+        "answer": "Yes. For patients who are already under physician-guided weight management care, Dr. Yasmin provides coordinated clinical nutrition follow-up — including meal planning, progress monitoring, and strategies to help preserve muscle mass throughout the process."
       },
       {
         "question": "How can nutrition support insulin resistance and fatty liver management?",
@@ -202,15 +200,15 @@
         "answer": "Certain non-surgical body-contouring technologies can help target localized fat deposits in areas such as the abdomen, arms, and thighs. The appropriate approach depends on the individual's condition and can be combined with a personalized clinical nutrition plan."
       },
       {
-        "question": "How can I reduce the risk of regaining weight after stopping weight-loss injections?",
-        "answer": "Long-term weight management involves more than losing weight. Personalized nutrition, sustainable lifestyle habits, and appropriate clinical follow-up can help support weight maintenance. Medication changes or discontinuation should always be discussed with the treating physician."
+        "question": "How can I reduce the risk of regaining weight after a weight management program?",
+        "answer": "Long-term weight management involves more than losing weight. Personalized nutrition, sustainable lifestyle habits, and appropriate clinical follow-up can help support weight maintenance. Any changes to a physician-guided treatment plan should always be discussed with the treating physician."
       },
       {
-        "question": "What is the difference between Mounjaro, Ozempic, and Wegovy?",
-        "answer": "They differ in their active ingredients, mechanisms, approved uses, and dosing. Ozempic and Wegovy contain semaglutide and act on the GLP-1 pathway, while Mounjaro contains tirzepatide and acts on both GIP and GLP-1 pathways. The appropriate treatment depends on the patient's medical profile and treatment goals."
+        "question": "What does a medical weight management follow-up with Dr. Yasmin include?",
+        "answer": "It includes a personalized nutrition plan built around your health profile, regular progress check-ins, and coordination with your treating physician — with particular attention to balanced nutrition and preserving muscle mass throughout your weight management journey."
       },
       {
-        "question": "Can weight-loss injections cause muscle loss or loose skin?",
+        "question": "Can rapid weight loss cause muscle loss or loose skin?",
         "answer": "Changes in muscle mass and skin appearance can occur during weight loss, particularly with rapid weight reduction or inadequate nutrition. Clinical follow-up can include appropriate protein intake, balanced nutrition, and lifestyle strategies that support muscle preservation throughout the weight-loss journey."
       },
       {

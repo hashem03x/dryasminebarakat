@@ -19,7 +19,7 @@ export const SERVICE_ICONS = [
   "stethoscope",
   "scale",
   "trending-up",
-  "syringe",
+  "heart-pulse",
   "sparkles",
   "activity",
   "droplet",
@@ -32,7 +32,7 @@ export const SERVICE_SLUGS = [
   "clinical-nutrition",
   "weight-loss",
   "weight-gain",
-  "injection-follow-up",
+  "medical-weight-management",
   "body-contouring",
   "insulin-resistance",
   "fatty-liver",
@@ -44,12 +44,12 @@ export type ServiceSlug = (typeof SERVICE_SLUGS)[number];
 // Paired with messages.faq.items by index. Each entry lists the service
 // slug(s) most relevant to that question, rendered as an internal link.
 export const FAQ_RELATED_SERVICES: ServiceSlug[][] = [
-  ["injection-follow-up"],
+  ["medical-weight-management"],
   ["insulin-resistance", "fatty-liver"],
   ["body-contouring"],
-  ["injection-follow-up"],
-  ["injection-follow-up"],
-  ["injection-follow-up"],
+  ["medical-weight-management"],
+  ["medical-weight-management"],
+  ["weight-loss", "medical-weight-management"],
   ["weight-loss", "body-contouring"],
   ["ongoing-follow-up"],
 ];

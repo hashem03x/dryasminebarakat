@@ -1,11 +1,11 @@
 import {
   Activity,
   Droplet,
+  HeartPulse,
   Repeat,
   Scale,
   Sparkles,
   Stethoscope,
-  Syringe,
   TrendingUp,
   type LucideIcon,
 } from "lucide-react";
@@ -17,7 +17,7 @@ const ICONS: Record<(typeof SERVICE_ICONS)[number], LucideIcon> = {
   stethoscope: Stethoscope,
   scale: Scale,
   "trending-up": TrendingUp,
-  syringe: Syringe,
+  "heart-pulse": HeartPulse,
   sparkles: Sparkles,
   activity: Activity,
   droplet: Droplet,
